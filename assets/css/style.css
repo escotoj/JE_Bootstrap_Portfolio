@@ -10,6 +10,45 @@
     --color-base2: pink;
     --color-brand: black;
     --color-brand2: grey;
-    --color-width: 240px;
+    --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
+
+body {
+    background-color: var(--color-base2);
+    color: var(--color-body);
+    font-family: var(--color-base), sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--color-heading);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-body);
+    transition: all 0.4s ease;
+}
+
+a:hover {
+    color: var(--color-brand);
+}
+
+img {
+    width: 100%;
+}
+
+/* NAVBAR */
+@media (min-width: 992px) {
+    .navbar {
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgba(255, 166, 0, 0.9), rgba(255, 166, 0, 0.9));  /*add url(imagelinkgoes); */
+
+    }
+}
+
+/* font-family: 'Bai Jamjuree', sans-serif; */
+
+
