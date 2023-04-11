@@ -1,0 +1,15 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
+
+/* rooted color scheme for later */
+:root {
+    --color-body: red;
+    --color-heading: blue;
+    --color-brand: green;
+    --color-base: orange;
+    --color-base2: pink;
+    --color-brand: black;
+    --color-brand2: grey;
+    --color-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
