@@ -40,13 +40,27 @@ img {
     width: 100%;
 }
 
+.navbar .nav-link {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: beige;
+}
+
+/* makes the navbar when you hover to change to color black from :root  */
+.navbar .nav-link:hover {
+    color: var(--color-brand)
+
+} 
+
+
 /* NAVBAR */
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
         background: linear-gradient(rgba(255, 166, 0, 0.9), rgba(255, 166, 0, 0.9));  /*add url(imagelinkgoes); */
-
+        background-size: cover;
+        background-position: center;
     }
 }
 
