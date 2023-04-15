@@ -25,6 +25,9 @@
   
   
   ## Questions
+on 04/12 @ 6:30 you are at minute 20:42 in yt video
+
+
   For more questions please contact below: 
   Email: j.escoto@gmail.com 
   GitHub: escotoj
