@@ -4,12 +4,12 @@
 
 /* rooted color scheme for later */
 :root {
-    --color-body: red;
-    --color-heading: blue;
+    --color-body: rgb(213, 93, 8);
+    --color-heading: rgb(4, 99, 74);
     --color-brand: green;
-    --color-base: orange;
-    --color-base2: pink;
-    --color-brand: black;
+    --color-base: rgb(242, 142, 2);
+    --color-base2: rgb(254, 226, 160);
+    --color-brand: rgb(223, 104, 0);
     --color-brand2: grey;
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
@@ -17,7 +17,7 @@
 
 body {
     background-color: var(--color-base2);
-    color: var(--color-body);
+    color: black;
     font-family: var(--font-base), sans-serif;
 }
 
@@ -74,7 +74,7 @@ img {
     align-items: center;
     justify-content: center;
     font-size: 32px;
-    background-color: var(--color-brand);
+    background-color: var(--color-heading);
     color: var(--color-base);
 }
 
@@ -86,7 +86,7 @@ img {
 .navbar .nav-link {
     font-weight: 700;
     text-transform: uppercase;
-    color: beige;
+    color: var(--color-base2);
 }
 
 /* makes the navbar when you hover to change to color black from :root  */
@@ -96,20 +96,20 @@ img {
 } 
 
 .navbar .nav-link.active {
-color: var(--color-brand);
+color: var(--color-heading);
 }
 
 @media (min-width: 992px) {
     .navbar {
         min-height: 100vh;
         width: var(--sidbar-width);
-        background: linear-gradient(rgba(255, 166, 0, 0.8), rgba(255, 166, 0, 0.8));  /*add url(imagelinkgoes); */
+        background: linear-gradient(rgba(9, 97, 71, 0.8), rgba(255, 166, 0, 0.8));  /*add url(imagelinkgoes); */
         background-size: cover;
         background-position: center;
     }
 
     .navbar-brand img {
-        border: 8px solid var(--color-brand); 
+        border: 8px solid black; 
         /* color around the photo */
     }
 #content-wrapper {
@@ -132,8 +132,8 @@ color: var(--color-brand);
 
 .btn-brand:hover,
 .btn-brand:focus {
-    background-color: var(--color-base2);
-    color: var(--color-base);
+    background-color: rgb(248, 153, 45);
+    color: var(--color-heading);
     border-color: var(--color-brand2);
 
 }
@@ -141,6 +141,7 @@ color: var(--color-brand);
 .link-custom {
     font-weight: 700;
     position: relative;
+    color: var(--color-heading);
 }
 
 .link-custom::after {
