@@ -1,79 +1,199 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>JE Bootstrap UX/UI Portfolio</title>
     <!-- <style>
         @import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap');
         </style> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">    <link rel="stylesheet" href="assets/css/aos.css">
-    <link rel="stylesheet" href="assets/css/line-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/line-awesome.min.css" />
     <!-- <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600;700&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="assets/css/style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+
 
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg bg-body-dark fixed-top">
-        <div class="container-flex-lg-column"> 
-            <!-- changing direction of columnn using flex (originanl: container-fluid)-->
-          <a class="navbar-brand mb-lg-4" href="#"><span class="h3 fw-bold d-block d-lg-none">Jose Escoto</span>
-        <img src="assets/images/portfolioPhoto.jpg" class="d-none d-lg-block rounded-circle" alt=""></a>
-          <!-- the d-block and the d-none hide this h3-->
-          <!-- we added an image from image file and applied a couple of classes including one to make it round -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center"> <!--ms-auto makes the navbar got to the right, flex makes it so that the nav is in column instead of row and text center is to center the text --> 
-                <li class="nav-item">
-                    <a class="nav-link" href="#home">Home</a>
-                  </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#services">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#work">Work</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#contact">Contact</a>
-              </li>
+      <div class="container-flex-lg-column">
+        <!-- changing direction of columnn using flex (originanl: container-fluid)-->
+        <a class="navbar-brand mb-lg-4" href="#">
+          <span class="h3 fw-bold d-block d-lg-none">Jose Escoto</span>
+          <img
+            src="assets/images/portfolioPhoto.jpg"
+            class="d-none d-lg-block rounded-circle"
+            alt=""
+        /></a>
+        <!-- the d-block and the d-none hide this h3-->
+        <!-- we added an image from image file and applied a couple of classes including one to make it round -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+            <!--ms-auto makes the navbar got to the right, flex makes it so that the nav is in column instead of row and text center is to center the text -->
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- // NAVBAR -->
 
-            </ul>
+    <!-- CONTENT WRAPPER -->
+    <div id="content-wrapper">
+      <!-- HOME -->
+      <section id="home" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8">
+              <!-- at 30:00-40:32 is where they explain this AOS  -->
+              <h1 class="display-4 fw-bold" data-aos="fade-up">
+                I'M A
+                <span class="text-brand">FULLSTACK WEB DEVELOPMENT</span> AT UC
+                BERKELEY, CA
+              </h1>
+              <p class="lead mt-2 mb-4" data-aos="fade-up" data-aos-delay="300">
+                My name is Jose AE, AKA DJ Smaug and I am on a journey to learn
+                and apply web development skills to ultimatly start a career as
+                Software Engineer
+              </p>
+              <div data-aos="fade-up" data-aos-delay="600">
+              <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
+              <a href="#" class="link-custom">Contant me at:7074444444 </a>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-      <!-- // NAVBAR -->
+      </section>
+      <!-- //HOME -->
 
-<!-- CONTENT WRAPPER -->
-<div id="content-wrapper">
-<!-- HOME -->
-<section id="home" class="full-height px-lg-5">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8">
-        <h1 class="display-4 fw-bold">I'M A <span class="text-brand">FULLSTACK WEB DEVELOPMENT</span> AT UC BERKELEY, CA</h1>
-        <p class="lead mt-2">My name is Jose AE, AKA DJ Smaug and I am on a journey to learn and apply web development skills to ultimatly start a career as Software Engineer </p>
-        <a href="#work" class="btn btn-brand me-3">Explore My Work</a>
-        <a href="#" class="link-custom">Contant me at:7074444444 </a>
-      </div>
+      <!-- SERVICES -->
+      <section id="services" class="full-height px-lg-5">
+        <div class="container">
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">SERVICES</h6>
+              <h1 class="text-brand">Services That I Provide</h1>
+            </div>
+          </div>
+
+          <div class="row gy-4">
+      <!-- has a shadow effect that the others dont -->
+            <div class="col-md-4" data-aos="fade-up">
+              <div class="service p-4 bg-base rounded-3 shadow-effect">
+                <div class="iconbox rounded-4">
+      <!-- look to icon website for your choice of icon -->
+                  <i class="las la-pencil-ruler"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Branding</h5>
+                <p>With a background in Graphic Design and Web Developemnt to create a tailored online presence</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="300" >
+              <div class="service p-4 bg-base rounded-3 shadow-effect">
+                <div class="iconbox rounded-4">
+      <!-- look to icon website for your choice of icon -->
+                  <i class="las la-laptop-code"></i>
+                </div>
+                <h5 class="mt-4 mb-2">Web Designing</h5>
+                <p>I craft high-performing and visually appealing experince tailored and conversion-focused</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up" data-aos-delay="600">
+              <div class="service p-4 bg-base rounded-3 shadow-effect">
+                <div class="iconbox rounded-4">
+      <!-- look to icon website for your choice of icon -->
+                  <i class="las la-feather"></i>
+                </div>
+                <h5 class="mt-4 mb-2">UX Design</h5>
+                <p>Combining branding and web development to create a product that is usable, enjoyable, and interactive.</p>
+                <a href="#" class="link-custom">Read More</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!-- //SERVICES -->
+
+      <!-- WORK -->
+      <section id="work" class="full-height px-lg-5">
+        <div class="container">
+
+          <div class="row pb-4" data-aos="fade-up">
+            <div class="col-lg-8">
+              <h6 class="text-brand">WORK</h6>
+              <h1>My Recent Projects</h1>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="card-custom rounded-4 bg-base shadow-effect">
+                <div class="card-custom-image rounded-4">
+                  <img class="rounded-4" src="assets/images/coffeeshopproject.png" alt="ProjectOne"> 
+                  <!-- look to icon website for your choice of icon -->
+                </div>
+                <div class="card-custom-content p-4">
+                  <h4>Coffee Shop Locator</h4>
+                  <p>Skills: Working with a team to achive a common goal by coordinating and collaborating through Git.
+                    Used a few of different HTML, CSS and JS files to intigrate the app and to keep code organized
+                    Applied function to our application by using two differnt APIs, one for the city locator and the other API for the list of coffee drinks
+                    Styled the layout using Bulma CDN and jQuery</p>
+                  <a href="#" class="link-custom">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- //WORK -->
+      
     </div>
-  </div>
-</section>
-<!-- //HOME -->
+    <!-- // CONTENT WRAPPER -->
 
-</div>
-<!-- // CONTENT WRAPPER -->
-
-
-<!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
-<script src="assets/js/aos.js"></script>
-<script src="assets/js/main.js"></script>
-</body>
+    <!-- <script src="assets/js/bootstrap.bundle.min.js"></script> -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>

@@ -16,7 +16,7 @@
   ## License
   License: Mozilla
   Usage: this video will be an example
-   [Functionality Video](https://drive.google.com/file/d/1d8D6xatXV4n0V-omAop8MQRPTvfL1Fi5/view)
+  [Functionality Video](https://drive.google.com/file/d/1d8D6xatXV4n0V-omAop8MQRPTvfL1Fi5/view)
   
   ## Credits
   Jose Escoto
@@ -25,7 +25,7 @@
   
   
   ## Questions
-on 04/12 @ 6:30 you are at minute 20:42 in yt video
+  on 04/15 @ 3:00 you are at minute 34:36 in yt video
 
 
   For more questions please contact below: 
