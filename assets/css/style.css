@@ -10,7 +10,7 @@
     --color-base: rgb(242, 142, 2);
     --color-base2: rgb(254, 226, 160);
     --color-brand: rgb(223, 104, 0);
-    --color-brand2: grey;
+    --color-brand2: rgb(0, 0, 0);
     --sidbar-width: 240px;
     --font-base: "Bai Jamjuree";
 }
@@ -46,6 +46,14 @@ img {
 
 .text-brand {
     color: var(--color-brand);
+}
+
+.text-brand2 {
+    color: var(--color-base2);
+}
+
+.text-brand3 {
+    color: var(--color-brand2);
 }
 
 .full-height {
@@ -179,7 +187,7 @@ color: var(--color-heading);
 #contact .form-control {
     background-color: var(--color-base);
     border-color: var(--color-base);
-    color: var(--color-body);
+    color: black;
 }
 
 #contact .form-control:focus {
@@ -187,9 +195,7 @@ color: var(--color-heading);
     box-shadow: none;
 }
 /* at 1:21:57 */
-#contact .form-control {
-    background-color: var(--color-base);
-    border-color: var(--color-base);
-    color: var(--color-body);
+#contact .form-control::placeholder {
+    color: var(--color-heading);
 }
 
