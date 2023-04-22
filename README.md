@@ -25,7 +25,8 @@
   
   
   ## Questions
-  on 04/15 @ 3:00 you are at minute 34:36 in yt video
+  add freddies pool service, and the book you did as two examples of service, and church as well. 
+  maybe add a second page, or add a section specific for art?
 
 
   For more questions please contact below: 
