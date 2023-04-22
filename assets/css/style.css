@@ -199,3 +199,7 @@ color: var(--color-heading);
     color: var(--color-heading);
 }
 
+#contact input.form-control {
+    height: 44px;      
+}
+
