@@ -203,3 +203,30 @@ color: var(--color-heading);
     height: 44px;      
 }
 
+/* SOCIAL ICONS */
+
+.social-icons {
+    color: black;
+
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-base);
+    font-size: 24px;
+}
+
+.social-icons a:hover {
+    width: 50px;
+    height: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-heading);
+    font-size: 24px;
+}
+
