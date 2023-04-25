@@ -1,31 +1,28 @@
 # Portfolio Using Bootstrap
   
   ## Description
-  Apply bootstrap and have a working and interactive portfolio following along to yt video
+  Apply bootstrap and have a working and interactive portfolio to show case my work, experience and services. 
   
+
   ## Table of Contents
-  - [Installation](#Installation)
   - [Credits](#Credits)
   - [License](#License)
   - [Contribute](#Contribute)
-  - [Questions](#Questions)
-  
-  ## Installation
-  
+  - [Future](#Future)
   
   ## License
-  License: Mozilla
-  Usage: this video will be an example
-  [Functionality Video](https://drive.google.com/file/d/1d8D6xatXV4n0V-omAop8MQRPTvfL1Fi5/view)
+  License: MIT License
+  [Video](https://www.youtube.com/watch?v=3e8p0R5-b5A)
   
   ## Credits
-  Jose Escoto
+  Jose Escoto, Full Stack Development Student, University of Berkeley.
   
   ## Contribute to Project
+  Reference: [SA7MAN Turtorial](https://www.youtube.com/watch?v=3e8p0R5-b5A)
   
   
-  ## Questions
-  add freddies pool service, and the book you did as two examples of service, and church as well. 
+  ## Future
+  Add freddies pool service, and the book you did as two examples of service, and church as well. 
   maybe add a second page, or add a section specific for art?
 
 
