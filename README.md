@@ -1,8 +1,7 @@
-# Portfolio Using Bootstrap
-  
+# Portfolio Using Bootstrap  
   ## Description
   Apply bootstrap and have a working and interactive portfolio to show case my work, experience and services. 
-  
+  [!link] https://escotoj.github.io/ 
 
   ## Table of Contents
   - [Credits](#Credits)
