@@ -1,7 +1,7 @@
 # Portfolio Using Bootstrap  
   ## Description
   Apply bootstrap and have a working and interactive portfolio to show case my work, experience and services. 
-  [!link] https://escotoj.github.io/ 
+  https://escotoj.github.io/ 
 
   ## Table of Contents
   - [Credits](#Credits)
@@ -11,13 +11,12 @@
   
   ## License
   License: MIT License
-  [Video](https://www.youtube.com/watch?v=3e8p0R5-b5A)
   
   ## Credits
   Jose Escoto, Full Stack Development Student, University of Berkeley.
   
   ## Contribute to Project
-  Reference: [SA7MAN Turtorial](https://www.youtube.com/watch?v=3e8p0R5-b5A)
+  Reference: (https://www.youtube.com/watch?v=3e8p0R5-b5A)
   
   
   ## Future
