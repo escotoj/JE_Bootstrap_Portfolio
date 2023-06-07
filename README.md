@@ -16,7 +16,7 @@
   Jose Escoto, Full Stack Development Student, University of Berkeley.
   
   ## Contribute to Project
-  Reference: (https://www.youtube.com/watch?v=3e8p0R5-b5A)
+  [Reference](https://www.youtube.com/watch?v=3e8p0R5-b5A)
   
   
   ## Future
