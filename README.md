@@ -1,7 +1,8 @@
 # Portfolio Using Bootstrap  
   ## Description
   Apply bootstrap and have a working and interactive portfolio to show case my work, experience and services. 
-  https://escotoj.github.io/ 
+  [View Portfolio](https://escotoj.github.io/)
+
 
   ## Table of Contents
   - [Credits](#Credits)
@@ -27,3 +28,5 @@
   For more questions please contact below: 
   Email: j.escoto@gmail.com 
   GitHub: escotoj
+
+  ![Screenshot](assets/images/bootstrapPortfolio.png)
